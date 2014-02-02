@@ -41,7 +41,7 @@
             d = document.createTextNode(iv);
 
             el.setAttribute('class','day');
-            if(i === day){
+            if(iv === day){
                 el.setAttribute('class','day today');
             }
             el.setAttribute('data-date', (month + '/' + (i+1) + '/' + year));
