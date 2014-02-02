@@ -2,4 +2,5 @@ images/*
 webfonts/*
 Corsiva.js
 bfg-1.11.1.jar
-bfg.jarphp/db_credentials.php
+bfg.jar
+php/db_credentials.php
