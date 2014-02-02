@@ -80,6 +80,67 @@ div.colgroup div.col-2.content img{
 	max-width: 100%;
 	height: auto;
 }
+div.colgroup div.col-2.content div#calendar{
+	display: block;
+	width: 302px;
+	margin: 0 auto 0 auto;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+div.colgroup div.col-2.content div#calendar h2.month-name{
+	display: block;
+	width: 302px;
+	height: auto;
+	line-height: 1;
+	padding: .25em 0 .25em 0;
+	background-color: black;
+	text-align: center;
+	color: white;
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+div.colgroup div.col-2.content div#calendar ul.calendar-month{
+	display: block;
+	width: 302px;
+	border-left: 1px solid black;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+div.colgroup div.col-2.content div#calendar ul.calendar-month li.day{
+	display: inline-block;
+	position: relative;
+	width: 43px;
+	height: 43px;
+	padding: 0;
+	margin: 0;
+	border-width: 0 1px 1px 0;
+	border-color: black;
+	border-style: solid;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+div.colgroup div.col-2.content div#calendar ul.calendar-month li.day.today{
+	background-color: rgb(0,200,255);
+}
 div.footer{
 	clear: both;
 }
@@ -92,6 +153,7 @@ div.footer p.footer-text{
 	display: inline-block;
 }
 }
+
 @media only screen and (min-device-width: 480px) and (max-device-width: 640px){
 body{
 	font-family: "CorsivaMTStd";
@@ -170,6 +232,66 @@ div.colgroup div.col-2.content img{
 	max-width: 100%;
 	height: auto;
 }
+div.colgroup div.col-2.content div#calendar{
+	display: block;
+	width: 309px;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+div.colgroup div.col-2.content div#calendar h2.month-name{
+	display: block;
+	width: 309px;
+	height: 61px;
+	line-height: 3.1;
+	background-color: black;
+	text-align: center;
+	color: white;
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+div.colgroup div.col-2.content div#calendar ul.calendar-month{
+	display: block;
+	width: 309px;
+	border-width:0 0 0 1px;
+	border-style: solid;
+	border-color: black;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+div.colgroup div.col-2.content div#calendar ul.calendar-month li.day{
+	display: inline-block;
+	width: 44px;
+	height: 44px;
+	padding: 0;
+	margin: 0;
+	border-width: 0 1px 1px 0;
+	border-color: black;
+	border-style: solid;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+div.colgroup div.col-2.content div#calendar ul.calendar-month li.day.today{
+	background-color: rgb(0,200,255);
+}
 div.footer{
 	clear: both;
 }
@@ -182,6 +304,7 @@ div.footer p.footer-text{
 	display: inline-block;
 }
 }
+
 @media only screen and (min-device-width: 640px) and (max-device-width: 940px){
 body{
 	font-family: "CorsivaMTStd";
@@ -248,7 +371,7 @@ div.colgroup div.col-1.nav ul.nav li.navlink a:hover{
 }
 div.colgroup div.col-2.content{
 	float: right;
-	width: 420px;
+	width: 421px;
 	height: auto;
 	text-align: left;
 	display: inline-block;
@@ -258,6 +381,66 @@ div.colgroup div.col-2.content{
 div.colgroup div.col-2.content img{
 	max-width: 100%;
 	height: auto;
+}
+div.colgroup div.col-2.content div#calendar{
+	display: block;
+	width: 421px;
+	height: auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+div.colgroup div.col-2.content div#calendar h2.month-name{
+	display: block;
+	width: 421px;
+	height: 84px;
+	line-height: 3.1;
+	background-color: black;
+	text-align: center;
+	color: white;
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+div.colgroup div.col-2.content div#calendar ul.calendar-month{
+	display: block;
+	width: 421px;
+	border-width:0 0 0 1px;
+	border-style: solid;
+	border-color: black;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+div.colgroup div.col-2.content div#calendar ul.calendar-month li.day{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	padding: 0;
+	margin: 0;
+	border-width: 0 1px 1px 0;
+	border-color: black;
+	border-style: solid;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+div.colgroup div.col-2.content div#calendar ul.calendar-month li.day.today{
+	background-color: rgb(0,200,255);
 }
 div.footer{
 	clear: both;
@@ -271,6 +454,7 @@ div.footer p.footer-text{
 	display: inline-block;
 }
 }
+
 @media only screen and (min-device-width: 940px){
 body{
 	font-family: "CorsivaMTStd";
