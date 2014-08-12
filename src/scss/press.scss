@@ -6,20 +6,18 @@ $main-w: 680px;
 $m: 16px;
 
 body {
-	width: $main-w;
 	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-	font-size: 16px;
+	font-size: 14px;
 	letter-spacing: 0.03em;
 	padding: $m;
 }
 
-h1 {
-	font-size: 1.3333em;
-	margin: 2*$m 0 $m;
+ul {
+	margin: 2*$m 0 0;
 }
 
 li {
-	padding: $m/2;
+	padding: $m/3 3*$m/2;
 	a {
 		display: block;
 	}

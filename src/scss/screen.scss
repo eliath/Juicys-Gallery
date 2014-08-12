@@ -83,14 +83,27 @@ li { margin: 2px 0; }
 
 footer {
 	width: 100%;
-	.sep {
-		margin-top: 400px;
-		width: 100%;
-		height: 1px;
-		background: #777;
+	a {
+		display: block;
+		margin-top: 380px;
+		height: 40px;
+		padding: 20px 0;
+		position: relative;
+		&:hover {
+			.sep {
+				background: blue;
+			}
+		}
+		.sep {
+			position: absolute;
+			bottom: 20px;;
+			width: 100%;
+			height: 1px;
+			background: #777;
+		}
 	}
 	.image {
-		margin: 20px auto;
+		margin: 0 auto;
 		width: 112px;
 		height: 128px;
 		background: url($footer-img) center center no-repeat;

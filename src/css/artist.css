@@ -82,83 +82,98 @@ a:hover {
   text-decoration: underline;
 }
 
+/* line 13, ../scss/_base.scss */
+.back-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 16px;
+}
+
 /* line 8, ../scss/artist.scss */
 body {
   width: 680px;
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-  font-size: 16px;
+  font-size: 12px;
   letter-spacing: 0.03em;
-  padding: 20px;
+  padding: 45px 20px 20px;
 }
 
 /* line 16, ../scss/artist.scss */
 .header-img {
   width: 100%;
+  margin-bottom: 20px;
 }
 
-/* line 20, ../scss/artist.scss */
+/* line 22, ../scss/artist.scss */
+.gallery-name {
+  font-weight: bold;
+}
+
+/* line 25, ../scss/artist.scss */
 .name, .title {
-  font-size: 2em;
   font-weight: bold;
   margin: 16px 0;
 }
 
-/* line 26, ../scss/artist.scss */
+/* line 30, ../scss/artist.scss */
 .dates {
-  font-size: 1.1em;
   font-weight: bold;
-  margin: 16px 0;
+  margin: 0;
 }
 
-/* line 32, ../scss/artist.scss */
+/* line 35, ../scss/artist.scss */
 .address {
-  font-weight: normal;
-  font-size: 1.1em;
+  font-weight: bold;
   line-height: 1.1em;
 }
+/* line 38, ../scss/artist.scss */
+.address .subway {
+  display: none;
+}
 
-/* line 39, ../scss/artist.scss */
+/* line 41, ../scss/artist.scss */
 .content {
   padding-right: 80px;
   letter-spacing: 0.01em;
 }
-/* line 42, ../scss/artist.scss */
+/* line 44, ../scss/artist.scss */
 .content p {
   text-align: justify;
   margin: 16px 0;
   line-height: 1.2em;
 }
-/* line 43, ../scss/artist.scss */
+/* line 45, ../scss/artist.scss */
 .content p:not(.noindent) {
   text-indent: 10px;
 }
 
-/* line 50, ../scss/artist.scss */
+/* line 52, ../scss/artist.scss */
 .contact {
   color: black;
   text-decoration: none;
   cursor: pointer;
 }
-/* line 54, ../scss/artist.scss */
+/* line 56, ../scss/artist.scss */
 .contact:hover {
   color: blue;
   text-decoration: underline;
 }
 
-/* line 60, ../scss/artist.scss */
-footer {
-  margin: 100px 0;
-}
 /* line 62, ../scss/artist.scss */
+footer {
+  margin: 60px 0;
+}
+/* line 64, ../scss/artist.scss */
 footer img {
   margin: 10px 0;
   max-width: 500px;
 }
-/* line 66, ../scss/artist.scss */
+/* line 68, ../scss/artist.scss */
 footer a {
   color: black;
 }
-/* line 68, ../scss/artist.scss */
+/* line 70, ../scss/artist.scss */
 footer a:hover {
   color: blue;
   text-decoration: underline;

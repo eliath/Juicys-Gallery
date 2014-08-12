@@ -4,6 +4,7 @@ html
         meta(charset='utf-8')
         meta(name='description' content=':) Juicys :)')
         meta(name='viewport' content='initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, width=device-width')
+        link(href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet")
         link(rel='stylesheet' href='/css/artist.css')
         link(rel='icon' type='image/png' href='/img/juicysfavicon1.ico')
 
@@ -12,18 +13,20 @@ html
 
         title Flannery Silva | Juicys Gallery
     body
+        a(href="/")
+            i.back-btn.fa.fa-angle-left
         a(href="http://romantica1fem.info/keeper_of_shrinking_violet.html")
             img.header-img(src='/artists/Flannery-Silva/fs-header.jpg')
-        h1.name Flannery Silva
-        p.dates Thursday June 19, 2014 &mdash; Thursday July 10, 2014
+        h1.gallery-name Juicys Gallery
         p.address
             | Manhattan Mini Storage
             br
             | 510 West 21st Street Room 05-03-18,
             br
             | New York, New York 10011
+        h1.name Flannery Silva
             br
-            span.subway C/E at 23rd St.
+            span.dates June 19, 2014 &mdash; July 10, 2014
 
         h2.title Keeper of Shrinking Violet
         .content
@@ -65,11 +68,9 @@ html
                 | are the dreams of a country girl caught mid-journey. And it is 
                 | clear this shell is just as strong as the last, if not stronger. 
                 | For as one wanes, another waxes.
-            p.RSVP.noindent
-                | Gallery hours by appointment. 
-                span.contact
         footer
-            a(href="http://romantica1fem.info/keeper_of_shrinking_violet.html")
-                | [link]
+            a(href="/artists/Flannery-Silva/Keeper_of_Shrinking_Violet.pdf") Keeper_of_Shrinking_Violet.pdf
+            br
+            a(href="http://romantica1fem.info/keeper_of_shrinking_violet.html") http://romantica1fem.info/keeper_of_shrinking_violet.html
         script.
             _main.init();

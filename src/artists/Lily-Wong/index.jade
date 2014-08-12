@@ -4,6 +4,7 @@ html
         meta(charset='utf-8')
         meta(name='description' content=':) Juicys :)')
         meta(name='viewport' content='initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, width=device-width')
+        link(href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet")
         link(rel='stylesheet' href='/css/artist.css')
         link(rel='icon' type='image/png' href='/img/juicysfavicon1.ico')
 
@@ -12,18 +13,20 @@ html
 
         title Lily Wong | Juicys Gallery
     body
-        
+        a(href="/")
+            i.back-btn.fa.fa-angle-left
         img.header-img(src='/artists/Lily-Wong/taste0.png')
-        h1.name Lily Wong
-        p.dates Wednesday April 2, 2014 &mdash; Wednesday April 23, 2014
+        h1.gallery-name Juicys Gallery
         p.address
             | Manhattan Mini Storage
             br
             | 28 Second Avenue Room 867,
             br
             | New York, New York
+        
+        h1.name Lily Wong
             br
-            span.subway F at 2nd Ave., 4/6 at Bleecker St., J at Bowery
+            span.dates April 2, 2014 &mdash; April 23, 2014
         
         h2.title A Taste of Spring is a Welcome Thing
         .content
@@ -63,9 +66,6 @@ html
                 | reveal to us the lonelier pursuits of the contempo­casual condition. In 
                 | this world, watering a plant is more of an attempt at companionship than 
                 | interior decoration­ proving a friend in need is a friend indeed.
-            p.RSVP
-                | RSVP to 
-                span.contact
         footer
             img(src='/artists/Lily-Wong/taste1.jpg')
             img(src='/artists/Lily-Wong/taste2.jpg')

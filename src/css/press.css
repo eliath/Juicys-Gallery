@@ -82,26 +82,32 @@ a:hover {
   text-decoration: underline;
 }
 
+/* line 13, ../scss/_base.scss */
+.back-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 16px;
+}
+
 /* line 8, ../scss/press.scss */
 body {
-  width: 680px;
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 0.03em;
   padding: 16px;
 }
 
-/* line 16, ../scss/press.scss */
-h1 {
-  font-size: 1.3333em;
-  margin: 32px 0 16px;
+/* line 15, ../scss/press.scss */
+ul {
+  margin: 32px 0 0;
 }
 
-/* line 21, ../scss/press.scss */
+/* line 19, ../scss/press.scss */
 li {
-  padding: 8px;
+  padding: 5.33333px 24px;
 }
-/* line 23, ../scss/press.scss */
+/* line 21, ../scss/press.scss */
 li a {
   display: block;
 }

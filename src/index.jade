@@ -4,6 +4,7 @@ html
         meta(charset='utf-8')
         meta(name='description' content=':) Juicys :)')
         meta(name='viewport' content='initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, width=device-width')
+        link(href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet")
         link(rel='stylesheet' href='/css/screen.css')
         link(rel='icon' type='image/png' href='/img/juicysfavicon1.ico')
 
@@ -23,7 +24,7 @@ html
         
         article.current
             h3 Current
-            a.name Liz Englander
+            a(href="/artists/Liz-Englander").name Liz Englander
 
         article.upcoming
             h3 Upcoming
@@ -42,7 +43,10 @@ html
             a(href="/press")
                 h3 Press
         footer
-            .sep
+            a(href="http://eliasmartinezcohen.com" target="_blank" title="Site built by eliasmartinezcohen.com")
+                .sep
+                    // Site built by Elías Martínez Cohen
+                    // http://eliasmartinezcohen.com/
             .image
         script.
             _main.init();
