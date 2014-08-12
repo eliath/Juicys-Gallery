@@ -1,12 +1,18 @@
 Juicys-Gallery
 ==============
 
-####[juicys.gallery](http://juicys.gallery/)  
-
+####[juicys.gallery](http://juicys.gallery/)
 ####[juicysgallery.info](http://juicysgallery.info/)
 
-requires compass & jade to compile.
+---
 
-run ```./build``` to make,  
-use http-server in www/  
-or open www/index.html in a browser.
+Requires [compass](http://compass-style.org/) & [jade](http://jade-lang.com/) to compile.
+
+#####Make 
+run ```./build``` from the project directory.
+
+
+#####Run 
+```http-server``` from www/  
+or  
+open www/index.html in a browser.
