@@ -1,0 +1,26 @@
+@import "compass/reset";
+@import "_base";
+
+$footer-img: '/img/orangesandjuice.gif';
+$main-w: 680px;
+$m: 16px;
+
+body {
+	width: $main-w;
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	font-size: 16px;
+	letter-spacing: 0.03em;
+	padding: $m;
+}
+
+h1 {
+	font-size: 1.3333em;
+	margin: 2*$m 0 $m;
+}
+
+li {
+	padding: $m/2;
+	a {
+		display: block;
+	}
+}
