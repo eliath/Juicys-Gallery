@@ -1,0 +1,123 @@
+//┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+//┃                                   ┃
+//┃               sizes & breakpoints ┃
+//┃                                   ┃
+//┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+* { box-sizing: border-box; }
+
+@mixin bp($point) {
+   $bp-s: "(max-width: 1024px)";
+   $bp-m: "(max-width: 1250px)";
+   $bp-l: "(max-width: 1600px)";
+   $bp-phone: "(max-width: 320px)";
+
+   @if $point == s {
+      @media #{$bp-s} { @content; }
+   }
+   @else if $point == m {
+      @media #{$bp-m} { @content; }
+   }
+   @else if $point == l {
+      @media #{$bp-l}  { @content; }
+   }
+   @else if $point == iphone {
+      @media #{$bp-phone}  { @content; }
+   }
+} 
+
+//┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+//┃                                   ┃
+//┃                        Animations ┃
+//┃                                   ┃
+//┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+//CSS properties animation
+
+@mixin anim-slow($property) {
+   @include transition-property($property);
+   @include transition-duration(1s);
+   @include transition-timing-function(ease);
+}
+
+@mixin anim-medium($property) {
+   @include transition-property($property);
+   @include transition-duration(.3s);
+   @include transition-timing-function(ease);
+}
+@mixin anim-fast($property) {
+   @include transition-property($property);
+   @include transition-duration(.15s);
+   @include transition-timing-function(ease);
+}
+
+@mixin keyframes($animationName) {
+    @-webkit-keyframes #{$animationName} {
+        @content;
+    }
+    @-moz-keyframes #{$animationName} {
+        @content;
+    }
+    @-o-keyframes #{$animationName} {
+        @content;
+    }
+    @keyframes #{$animationName} {
+        @content;
+    }
+}
+
+@mixin animate($animationName, $speed) {
+  -webkit-animation: #{$animationName} #{$speed} linear infinite;
+  -moz-animation: #{$animationName} #{$speed} linear infinite;
+  -ms-animation: #{$animationName} #{$speed} linear infinite;
+  -o-animation: #{$animationName} #{$speed} linear infinite;
+  animation: #{$animationName} #{$speed} linear infinite;
+}
+
+
+//┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+//┃                                   ┃
+//┃                           Styling ┃
+//┃                                   ┃
+//┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+@mixin absolute_fill {
+   position: absolute;
+   top: 0; left: 0;
+   height: 100%; width: 100%;
+   margin: 0; padding: 0;
+}
+
+@mixin relative_fill {
+   position: relative;
+   top: 0; left: 0;
+   height: 100%; width: 100%;
+   margin: 0; padding: 0;
+}
+
+@mixin fixed_fill {
+   position: fixed;
+   top: 0; left: 0;
+   height: 100%; width: 100%;
+   margin: 0; padding: 0;
+}
+
+@mixin calc($property, $expression) { 
+  #{$property}: -webkit-calc(#{$expression}); 
+  #{$property}: -moz-calc(#{$expression});
+  #{$property}: calc(#{$expression}); 
+}
+
+@mixin blur($amount) {
+  -webkit-filter: blur(#{$amount});
+  -moz-filter:  blur(#{$amount});
+  -o-filter:    blur(#{$amount});
+  -ms-filter:   blur(#{$amount});
+  filter:     blur(#{$amount}); 
+}
+
+@mixin placeholder {
+  &::-webkit-input-placeholder { @content }
+  &:-moz-placeholder           { @content }
+  &::-moz-placeholder          { @content }
+  &:-ms-input-placeholder      { @content }  
+}

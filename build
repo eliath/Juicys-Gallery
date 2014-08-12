@@ -1,0 +1,24 @@
+#!/bin/bash
+
+function log {
+	tput sgr 1 0
+	echo -e $1
+	tput sgr0
+}
+
+SRC="/Users/Eli/Sites/juicys.gallery/src"
+DEST="/Users/Eli/Sites/juicys.gallery/www"
+
+log "-- Preparing Target... --"
+cd $DEST
+rm -rfv ./**
+log "-- Compiling... --"
+cd $SRC
+compass compile
+jade .
+log "-- Copying... --"
+cp -R -v index.html css img js libs artists $DEST
+log "-- Cleaning... --"
+cd $DEST
+rm -fv artists/**/*.jade
+log "\n-- Done :) --\n"

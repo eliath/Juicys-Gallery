@@ -1,0 +1,78 @@
+@import "compass/reset";
+@import "_base";
+
+$footer-img: '/img/orangesandjuice.gif';
+$main-w: 680px;
+$m: 16px;
+
+body {
+	width: $main-w;
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	font-size: 16px;
+	letter-spacing: 0.03em;
+	padding: 20px;
+}
+
+a {
+	text-decoration: none;
+	&:visited { color: #242424; }
+}
+
+.header-img {
+	width: 100%;
+}
+
+.name, .title {
+	font-size: 2em;
+	font-weight: bold;
+	margin: $m 0;
+}
+
+.dates {
+	font-size: 1.1em;
+	font-weight: bold;
+	margin: $m 0;
+}
+
+.address {
+	font-weight: normal;
+	font-size: 1.1em;
+	line-height: 1.1em;
+	// .subway { font-size: 0.9em; } 
+}
+
+.content {
+	padding-right: $m * 5;
+	letter-spacing: 0.01em;
+	p {
+		&:not(.noindent) { text-indent: 10px; }
+		text-align: justify;
+		margin: $m 0;
+		line-height: 1.2em;
+	}
+}
+
+.contact {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+	&:hover {
+		color: blue;
+		text-decoration: underline;
+	}
+}
+
+footer {
+	margin: 100px 0;
+	img {
+		margin: 10px 0;
+		max-width: 500px;
+	}
+	a {
+		color: black;
+		&:hover {
+			color: blue;
+			text-decoration: underline;
+		}
+	}
+}

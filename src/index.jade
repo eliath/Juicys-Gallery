@@ -1,0 +1,48 @@
+doctype html
+html
+    head
+        meta(charset='utf-8')
+        meta(name='description' content=':) Juicys :)')
+        meta(name='viewport' content='initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, width=device-width')
+        link(rel='stylesheet' href='/css/screen.css')
+        link(rel='icon' type='image/png' href='/img/juicysfavicon1.ico')
+
+        script(src='/libs/jquery-2.1.1.min.js')
+        script(src='/js/main.js')
+
+        title Juicys Gallery
+    body
+        header
+            .image
+            h1 Juicys Gallery
+            p.info
+                | Contact: 
+                a.contact
+                br
+                | Gallery hours by appointment
+        
+        article.current
+            h3 Current
+            a.name Liz Englander
+
+        article.upcoming
+            h3 Upcoming
+            a -
+
+        aritcle.past
+            h3 Past
+            ul
+                a(href="/artists/Flannery-Silva")
+                    li.name Flannery Silva
+                a(href="/artists/Keith-AllYn-Spencer")
+                    li.name Keith AllYn Spencer
+                a(href="/artists/Lily-Wong")
+                    li.name Lily Wong
+        article.press
+            a(href="/press")
+                h3 Press
+        footer
+            .sep
+            .image
+        script.
+            _main.init();
