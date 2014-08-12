@@ -63,26 +63,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 6, ../scss/_base.scss */
+/* line 2, ../scss/_base.scss */
 * {
   box-sizing: border-box;
 }
 
-/* line 8, ../scss/screen.scss */
+/* line 4, ../scss/_base.scss */
 a {
   text-decoration: none;
 }
-/* line 10, ../scss/screen.scss */
+/* line 6, ../scss/_base.scss */
 a:visited {
   color: #242424;
 }
-/* line 11, ../scss/screen.scss */
+/* line 7, ../scss/_base.scss */
 a:hover {
   color: blue;
   text-decoration: underline;
 }
 
-/* line 17, ../scss/screen.scss */
+/* line 8, ../scss/screen.scss */
 body {
   width: 800px;
   margin: 0 auto;
@@ -92,12 +92,12 @@ body {
   padding: 20px;
 }
 
-/* line 26, ../scss/screen.scss */
+/* line 17, ../scss/screen.scss */
 header {
   position: relative;
   width: 100%;
 }
-/* line 29, ../scss/screen.scss */
+/* line 20, ../scss/screen.scss */
 header .image {
   position: relative;
   top: 0;
@@ -110,7 +110,7 @@ header .image {
   background: url("/img/header.png") center center no-repeat;
   background-size: cover;
 }
-/* line 35, ../scss/screen.scss */
+/* line 26, ../scss/screen.scss */
 header h1 {
   position: absolute;
   top: 0;
@@ -128,7 +128,7 @@ header h1 {
   font-weight: 200;
   cursor: default;
 }
-/* line 47, ../scss/screen.scss */
+/* line 38, ../scss/screen.scss */
 header .info {
   width: 185px;
   float: right;
@@ -137,66 +137,66 @@ header .info {
   margin-top: 5px;
 }
 
-/* line 56, ../scss/screen.scss */
+/* line 47, ../scss/screen.scss */
 article {
   width: 50%;
 }
 
-/* line 60, ../scss/screen.scss */
+/* line 51, ../scss/screen.scss */
 h3 {
   cursor: default;
   text-transform: uppercase;
   margin: 35px 0 3px;
 }
-/* line 64, ../scss/screen.scss */
+/* line 55, ../scss/screen.scss */
 h3::after {
   content: ':';
 }
 
-/* line 69, ../scss/screen.scss */
+/* line 60, ../scss/screen.scss */
 .press h3 {
   cursor: pointer;
   color: black;
 }
-/* line 72, ../scss/screen.scss */
+/* line 63, ../scss/screen.scss */
 .press h3:hover {
   color: blue;
   text-decoration: underline;
 }
-/* line 76, ../scss/screen.scss */
+/* line 67, ../scss/screen.scss */
 .press h3::after {
   content: none;
 }
 
-/* line 81, ../scss/screen.scss */
+/* line 72, ../scss/screen.scss */
 li {
   margin: 2px 0;
 }
 
-/* line 83, ../scss/screen.scss */
+/* line 74, ../scss/screen.scss */
 .contact, .name {
   color: black;
   text-decoration: none;
   cursor: pointer;
 }
-/* line 87, ../scss/screen.scss */
+/* line 78, ../scss/screen.scss */
 .contact:hover, .name:hover {
   color: blue;
   text-decoration: underline;
 }
 
-/* line 93, ../scss/screen.scss */
+/* line 84, ../scss/screen.scss */
 footer {
   width: 100%;
 }
-/* line 95, ../scss/screen.scss */
+/* line 86, ../scss/screen.scss */
 footer .sep {
   margin-top: 400px;
   width: 100%;
   height: 1px;
   background: #777;
 }
-/* line 101, ../scss/screen.scss */
+/* line 92, ../scss/screen.scss */
 footer .image {
   margin: 20px auto;
   width: 112px;

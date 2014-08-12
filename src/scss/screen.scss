@@ -5,15 +5,6 @@ $header-img: '/img/header.png';
 $footer-img: '/img/orangesandjuice.gif';
 $main-w: 800px;
 
-a {
-	text-decoration: none;
-	&:visited { color: #242424; }
-	&:hover { 
-		color: blue; 
-		text-decoration: underline;
-	}
-}
-
 body {
 	width: $main-w;
 	margin: 0 auto;

@@ -63,9 +63,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 6, ../scss/_base.scss */
+/* line 2, ../scss/_base.scss */
 * {
   box-sizing: border-box;
+}
+
+/* line 4, ../scss/_base.scss */
+a {
+  text-decoration: none;
+}
+/* line 6, ../scss/_base.scss */
+a:visited {
+  color: #242424;
+}
+/* line 7, ../scss/_base.scss */
+a:hover {
+  color: blue;
+  text-decoration: underline;
 }
 
 /* line 8, ../scss/artist.scss */
@@ -78,82 +92,73 @@ body {
 }
 
 /* line 16, ../scss/artist.scss */
-a {
-  text-decoration: none;
-}
-/* line 18, ../scss/artist.scss */
-a:visited {
-  color: #242424;
-}
-
-/* line 21, ../scss/artist.scss */
 .header-img {
   width: 100%;
 }
 
-/* line 25, ../scss/artist.scss */
+/* line 20, ../scss/artist.scss */
 .name, .title {
   font-size: 2em;
   font-weight: bold;
   margin: 16px 0;
 }
 
-/* line 31, ../scss/artist.scss */
+/* line 26, ../scss/artist.scss */
 .dates {
   font-size: 1.1em;
   font-weight: bold;
   margin: 16px 0;
 }
 
-/* line 37, ../scss/artist.scss */
+/* line 32, ../scss/artist.scss */
 .address {
   font-weight: normal;
   font-size: 1.1em;
   line-height: 1.1em;
 }
 
-/* line 44, ../scss/artist.scss */
+/* line 39, ../scss/artist.scss */
 .content {
   padding-right: 80px;
   letter-spacing: 0.01em;
 }
-/* line 47, ../scss/artist.scss */
+/* line 42, ../scss/artist.scss */
 .content p {
   text-align: justify;
   margin: 16px 0;
   line-height: 1.2em;
 }
-/* line 48, ../scss/artist.scss */
+/* line 43, ../scss/artist.scss */
 .content p:not(.noindent) {
   text-indent: 10px;
 }
 
-/* line 55, ../scss/artist.scss */
+/* line 50, ../scss/artist.scss */
 .contact {
   color: black;
   text-decoration: none;
   cursor: pointer;
 }
-/* line 59, ../scss/artist.scss */
+/* line 54, ../scss/artist.scss */
 .contact:hover {
   color: blue;
   text-decoration: underline;
 }
 
-/* line 65, ../scss/artist.scss */
+/* line 60, ../scss/artist.scss */
 footer {
   margin: 100px 0;
 }
-/* line 67, ../scss/artist.scss */
+/* line 62, ../scss/artist.scss */
 footer img {
   margin: 10px 0;
   max-width: 500px;
 }
-/* line 71, ../scss/artist.scss */
+/* line 66, ../scss/artist.scss */
 footer a {
   color: black;
 }
-/* line 73, ../scss/artist.scss */
+/* line 68, ../scss/artist.scss */
 footer a:hover {
   color: blue;
   text-decoration: underline;
