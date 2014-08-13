@@ -13,6 +13,7 @@ run ```./build``` from the project directory.
 
 
 #####Run 
-```http-server``` from www/  
-or  
-open www/index.html in a browser.
+```
+cd www/
+http-server
+``` 
