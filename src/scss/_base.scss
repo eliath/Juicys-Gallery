@@ -26,7 +26,7 @@ a {
    $bp-s: "(max-width: 1024px)";
    $bp-m: "(max-width: 1250px)";
    $bp-l: "(max-width: 1600px)";
-   $bp-phone: "(max-width: 320px)";
+   $bp-phone: "(max-width: 400px)";
 
    @if $point == s {
       @media #{$bp-s} { @content; }
@@ -37,7 +37,7 @@ a {
    @else if $point == l {
       @media #{$bp-l}  { @content; }
    }
-   @else if $point == iphone {
+   @else if $point == mobile {
       @media #{$bp-phone}  { @content; }
    }
 } 

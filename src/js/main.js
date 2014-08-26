@@ -11,7 +11,7 @@ _main = {
 	getEmail: function getEmail() {
 		if (this.email_address) return this.email_address;
 		//secur by obscur
-		var user = ['cys', 'jui'].reverse().join('');
+		var user = ['cy', 'jui'].reverse().join('');
 			domain = ['o','f','n','i','.','y','r',
 					'e','l','l','a','g','s','y',
 					'c','i','u','j'].reverse().join('');

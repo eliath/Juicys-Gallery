@@ -17,8 +17,8 @@ cd $SRC
 compass compile
 jade .
 log "-- Copying... --"
-cp -R -v index.html css img js libs artists $DEST
+cp -R -v index.html css img js libs artists press $DEST
 log "-- Cleaning... --"
 cd $DEST
-rm -fv artists/**/*.jade
+rm -fv artists/**/*.jade press/*.jade
 log "\n-- Done :) --\n"

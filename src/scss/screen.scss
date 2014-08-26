@@ -7,6 +7,7 @@ $main-w: 800px;
 
 body {
 	width: $main-w;
+	max-width: 100vw;
 	margin: 0 auto;
 	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
 	font-size: 12px;
@@ -20,14 +21,21 @@ header {
 	.image {
 		@include relative_fill;
 		height: 500px;
+		@include bp(mobile) { height: 200px; }
 		background: url($header-img) center center no-repeat;
-		background-size: cover; 
+		background-size: cover;
 	}
 	h1 {
 		@include absolute_fill;
+		
 		height: 500px;
-		color: white;
 		line-height: 500px;
+		@include bp(mobile) { 
+			height: 200px; 
+			line-height: 200px;
+		}
+
+		color: white;
 		font-size: 3.5em;
 		letter-spacing: 0.0em;
 		text-align: center;
@@ -86,6 +94,7 @@ footer {
 	a {
 		display: block;
 		margin-top: 380px;
+		@include bp(mobile) {margin-top: 200px;}
 		height: 40px;
 		padding: 20px 0;
 		position: relative;

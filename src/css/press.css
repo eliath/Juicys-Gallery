@@ -92,22 +92,31 @@ a:hover {
 
 /* line 8, ../scss/press.scss */
 body {
+  max-width: 100%;
+  word-wrap: break-word;
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   font-size: 14px;
   letter-spacing: 0.03em;
   padding: 16px;
+  margin: 0;
 }
 
-/* line 15, ../scss/press.scss */
+/* line 18, ../scss/press.scss */
 ul {
   margin: 32px 0 0;
 }
 
-/* line 19, ../scss/press.scss */
+/* line 22, ../scss/press.scss */
 li {
   padding: 5.33333px 24px;
 }
-/* line 21, ../scss/press.scss */
+@media (max-width: 400px) {
+  /* line 22, ../scss/press.scss */
+  li {
+    padding: 5.33333px 0;
+  }
+}
+/* line 27, ../scss/press.scss */
 li a {
   display: block;
 }

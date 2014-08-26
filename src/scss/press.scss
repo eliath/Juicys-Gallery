@@ -6,10 +6,13 @@ $main-w: 680px;
 $m: 16px;
 
 body {
+	max-width: 100%;
+	word-wrap: break-word;
 	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
 	font-size: 14px;
 	letter-spacing: 0.03em;
 	padding: $m;
+	margin: 0;
 }
 
 ul {
@@ -18,6 +21,9 @@ ul {
 
 li {
 	padding: $m/3 3*$m/2;
+	@include bp(mobile) {
+		padding: $m/3 0;
+	}
 	a {
 		display: block;
 	}
