@@ -7,7 +7,9 @@ $main-w: 800px;
 
 body {
 	width: $main-w;
-	max-width: 100vw;
+	@include bp(mobile) {
+		max-width: 100vw;
+	}
 	margin: 0 auto;
 	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
 	font-size: 12px;
