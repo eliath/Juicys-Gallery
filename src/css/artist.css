@@ -1,86 +1,217 @@
-/*
-Syntax error: Undefined mixin 'bp'.
-        on line 17 of /Users/Eli/Sites/juicys.gallery/src/scss/_base.scss, in `bp'
-        from line 17 of /Users/Eli/Sites/juicys.gallery/src/scss/_base.scss
-        from line 2 of /Users/Eli/Sites/juicys.gallery/src/scss/artist.scss
+/* line 17, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
 
-Backtrace:
-/Users/Eli/Sites/juicys.gallery/src/scss/_base.scss:17:in `bp'
-/Users/Eli/Sites/juicys.gallery/src/scss/_base.scss:17
-/Users/Eli/Sites/juicys.gallery/src/scss/artist.scss:2
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:253:in `visit_mixin'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:320:in `visit_rule'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:227:in `block in visit_import'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:227:in `map'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:227:in `visit_import'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:100:in `visit'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/tree/root_node.rb:20:in `render'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/engine.rb:315:in `_render'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/sass-3.2.19/lib/sass/engine.rb:262:in `render'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/compiler.rb:139:in `block (2 levels) in compile'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/compiler.rb:126:in `timed'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/compiler.rb:138:in `block in compile'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/logger.rb:45:in `red'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/compiler.rb:137:in `compile'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/compiler.rb:118:in `compile_if_required'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/compiler.rb:103:in `block (2 levels) in run'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/compiler.rb:101:in `each'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/compiler.rb:101:in `block in run'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/compiler.rb:126:in `timed'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/compiler.rb:100:in `run'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/commands/watch_project.rb:147:in `recompile'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/fssm-0.2.10/lib/fssm/path.rb:35:in `update'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/fssm-0.2.10/lib/fssm/state/directory.rb:39:in `block in modified'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `each'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `modified'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/fssm-0.2.10/lib/fssm/state/directory.rb:18:in `refresh'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `each'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block in run'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `loop'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `run'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/commands/watch_project.rb:87:in `perform'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/commands/base.rb:18:in `execute'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/commands/project_base.rb:19:in `execute'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/bin/compass:30:in `block in <top (required)>'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/bin/compass:44:in `call'
-/Users/Eli/.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/bin/compass:44:in `<top (required)>'
-/Users/Eli/.rvm/gems/ruby-2.1.2/bin/compass:23:in `load'
-/Users/Eli/.rvm/gems/ruby-2.1.2/bin/compass:23:in `<main>'
-/Users/Eli/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
-/Users/Eli/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Undefined mixin 'bp'.\A         on line 17 of /Users/Eli/Sites/juicys.gallery/src/scss/_base.scss, in `bp'\A         from line 17 of /Users/Eli/Sites/juicys.gallery/src/scss/_base.scss\A         from line 2 of /Users/Eli/Sites/juicys.gallery/src/scss/artist.scss"; }
+/* line 22, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../.rvm/gems/ruby-2.1.2/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 2, ../scss/_base.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 4, ../scss/_base.scss */
+a {
+  text-decoration: none;
+}
+/* line 6, ../scss/_base.scss */
+a:visited {
+  color: #242424;
+}
+/* line 7, ../scss/_base.scss */
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* line 13, ../scss/_base.scss */
+.back-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 16px;
+}
+
+/* line 8, ../scss/artist.scss */
+body {
+  width: 680px;
+  max-width: 100vw;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  padding: 45px 20px 20px;
+}
+@media (max-width: 400px) {
+  /* line 8, ../scss/artist.scss */
+  body {
+    padding: 16px;
+  }
+}
+
+/* line 18, ../scss/artist.scss */
+.header-img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* line 24, ../scss/artist.scss */
+.gallery-name {
+  font-weight: bold;
+}
+
+/* line 27, ../scss/artist.scss */
+.name, .title {
+  font-weight: bold;
+  margin: 16px 0;
+}
+
+/* line 32, ../scss/artist.scss */
+.dates {
+  font-weight: bold;
+  margin: 0;
+}
+
+/* line 37, ../scss/artist.scss */
+.address {
+  font-weight: bold;
+  line-height: 1.1em;
+}
+/* line 40, ../scss/artist.scss */
+.address .subway {
+  display: none;
+}
+
+/* line 43, ../scss/artist.scss */
+.content {
+  padding-right: 80px;
+  letter-spacing: 0.01em;
+}
+@media (max-width: 400px) {
+  /* line 43, ../scss/artist.scss */
+  .content {
+    padding-right: 0;
+  }
+}
+/* line 47, ../scss/artist.scss */
+.content p {
+  text-align: justify;
+  margin: 16px 0;
+  line-height: 1.2em;
+  clear: both;
+}
+/* line 48, ../scss/artist.scss */
+.content p:not(.noindent) {
+  text-indent: 10px;
+}
+/* line 55, ../scss/artist.scss */
+.content .centered {
+  text-align: center;
+}
+/* line 56, ../scss/artist.scss */
+.content .pull-right {
+  text-align: right;
+}
+/* line 57, ../scss/artist.scss */
+.content .pad5 {
+  padding: 5px;
+}
+/* line 58, ../scss/artist.scss */
+.content .italic {
+  font-style: italic;
+}
+
+/* line 61, ../scss/artist.scss */
+.contact {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* line 65, ../scss/artist.scss */
+.contact:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* line 71, ../scss/artist.scss */
+footer {
+  margin: 60px 0;
+  word-wrap: break-word;
+}
+/* line 74, ../scss/artist.scss */
+footer img {
+  margin: 10px 0;
+  max-width: 500px;
+}
+@media (max-width: 400px) {
+  /* line 74, ../scss/artist.scss */
+  footer img {
+    max-width: 100%;
+  }
+}
+/* line 81, ../scss/artist.scss */
+footer a {
+  color: black;
+}
+/* line 83, ../scss/artist.scss */
+footer a:hover {
+  color: blue;
+  text-decoration: underline;
+}

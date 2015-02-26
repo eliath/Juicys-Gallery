@@ -5,3 +5,11 @@ juicys.gallery.sublime-*
 
 www/
 src/.sass-cache
+
+**/*.pdf
+**/*.png
+**/*.gif
+**/*.jpg
+**/*.jpeg
+**/*.svg
+**/*.ico
